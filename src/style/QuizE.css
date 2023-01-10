@@ -1,0 +1,163 @@
+.QuizE {
+  text-align: center;
+}
+.red {
+  background-color: rgb(238, 35, 12);
+}
+.green {
+  background-color: rgb(19, 89, 22);
+}
+.none {
+  background-color: rgb(22, 24, 22);
+}
+.question-card {
+  /* Center the div  */
+  margin:  auto;
+
+  /* Dimensions  */
+  width: 90%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 26px;
+  border-radius: 26px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-color: darkblue;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  margin-top: 8px;
+  background-color: lightblue;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: darkblue;
+  border-color: darkblue;
+  font-family: 'Alumni Sans Inline One', cursive;
+  font-size: 35px;
+}
+
+li:hover{
+  background-color: rgb(52, 135, 230);
+  color: rgb(96, 7, 141);
+}
+
+.question-text {
+  color: darkblue;
+  font-size: 24px;
+}
+
+/* Final Results  */
+
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}
+
+.homepaget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+  margin-bottom: 20px;
+  font-family: 'Coda', cursive;
+}
+
+.questionb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Coda', cursive;
+  font-size: 35px;
+}
+
+.centertr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.centertw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.textc {
+  color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Apple Chancery, cursive;
+}
+
+.textcr {
+  font-family: 'Rampart One', cursive;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textct {
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(10, 6, 95);
+  border: 5px groove  rgb(98, 154, 222);
+  margin: 10px;
+  padding: 5px;
+}

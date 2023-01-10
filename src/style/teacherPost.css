@@ -1,0 +1,126 @@
+.postContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 0.7fr;
+    row-gap: 20px;
+
+}
+
+.titleCreateQuiz{
+    display: grid;
+    /* justify-content: center; */
+    /* border-right: 2px groove grey;
+    border-top: 2px groove grey;
+    border-bottom: 2px groove grey; */
+    border-bottom: 2px groove rgb(10, 6, 95);
+    height: 70px;
+    padding: 5px; 
+    width: 400px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 65px;
+    color: rgb(10, 6, 95);
+}
+.formClass{
+  margin-top: 8px;
+  display: grid;
+  row-gap: 1px;
+}
+
+.label{
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 30px;
+    color: rgb(10, 6, 95);
+    margin-top: 5px;
+}
+
+.TrueFalse{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    font-family: 'Alumni Sans Inline One', cursive;
+}
+.TrueCheck{
+    display: grid;
+    grid-template-columns: 40px 50px;
+    margin: 7px;
+    font-family: 'Alumni Sans Inline One', cursive;
+}
+
+.trueAnswer{
+    font-family: 'Coda', cursive;
+    font-size: 20px;
+    color: rgb(10, 6, 95);
+}
+
+.majorContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr;
+}
+
+.display{
+    display: grid;
+}
+
+.select{
+    display: grid;
+    width: 50%;
+    padding: 2px;
+    border: 3px groove rgb(98, 154, 222);
+    border-radius: 7px;
+    font-family: 'Coda', cursive;
+    color: rgb(10, 6, 95);
+    
+
+}
+
+.choicesDisplay{
+    /* display: grid;
+    border: 2px inset grey */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    
+}
+
+.buttonDisplay{
+    width:100px;
+    height: 70px;
+    width: 100%;
+   background-color: rgba(41, 24, 108, 0.887);
+   border-radius: 25px;
+}
+
+.buttonDisplay:hover{
+   background-color:  rgb(85, 30, 167);
+}
+.Display-Back{
+    display: grid;
+    grid-template-columns: 180px 180px;
+    gap: 20px;
+    margin-bottom: 7px;
+}
+.create-quiz{
+    background-color: rgba(41, 24, 108, 0.887);
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    width: 200px;
+ 
+
+}
+.create-quiz:hover{
+    background-color:  rgb(85, 30, 167);
+}
+.pressDisplay{
+    font-family: 'Rampart One', cursive;
+    color: rgb(10, 6, 95);
+    font-size: 65px;
+}
+.input{
+    padding: 2px;
+    border: 3px groove rgb(98, 154, 222);
+    border-radius: 7px;
+    font-family: 'Coda', cursive;
+}
+
